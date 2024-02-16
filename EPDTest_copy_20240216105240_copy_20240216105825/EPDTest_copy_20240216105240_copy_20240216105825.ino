@@ -101,12 +101,7 @@ void setup() {
   // large block of text
   display.clearBuffer();
   testdrawtext(
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur "
-      "adipiscing ante sed nibh tincidunt feugiat. Maecenas enim massa, "
-      "fringilla sed malesuada et, malesuada sit amet turpis. Sed porttitor "
-      "neque ut ante pretium vitae malesuada nunc bibendum. Nullam aliquet "
-      "ultrices massa eu hendrerit. Ut sed nisi lorem. In vestibulum purus a "
-      "tortor imperdiet posuere. ",
+      "THIS IS A TEST!",
       COLOR1);
   display.display();
 
