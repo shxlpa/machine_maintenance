@@ -45,10 +45,10 @@ void setup(void) {
   display.setTextWrap(true);
 
   display.setCursor(0, 0);
-  display.setTextSize(1);
-  display.setTextColor(EPD_RED);
+  display.setTextSize(3);
+  display.setTextColor(EPD_BLACK);
   display.print(
-      "YXYX");
+      "SHILPAa");
   Serial.println("Printed! for tim");
 
   // display.setCursor(50, 70);
