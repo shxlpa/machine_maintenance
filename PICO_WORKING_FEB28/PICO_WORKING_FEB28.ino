@@ -9,6 +9,10 @@
 
 #include "Adafruit_EPD.h"
 
+// uint8_t 19; // mosi
+// uint8_t 16; // miso
+// uint8_t 18; // sck
+
 #ifdef ARDUINO_ADAFRUIT_FEATHER_RP2040_THINKINK // detects if compiling for
                                                 // Feather RP2040 ThinkInk
 #define EPD_DC PIN_EPD_DC                        // ThinkInk 24-pin connector DC
